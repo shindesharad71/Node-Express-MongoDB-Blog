@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var multer = require('multer');
-var upload = multer({dest: './uploads'});
+var upload = multer({dest: './public/images'});
 var mongo = require('mongodb');
 var db = require('monk')('localhost/nodeblog');
 
@@ -59,7 +59,7 @@ router.post('/add', upload.single('mainimage'), function(req, res, next) {
       if(err) {
         res.sennd(err);
       } else {
-        req.flash('succes', 'Post Added');
+        req.flash('success', 'Post Added');
         res.location('/');
         res.redirect('/');
       }

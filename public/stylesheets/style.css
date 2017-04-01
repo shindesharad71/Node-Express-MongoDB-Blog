@@ -113,3 +113,19 @@ textarea{
 	height:70px;
 	width:400px;
 }
+
+ul.success li {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: solid transparent 1px;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  list-style: none;
+}
+
+.post img {
+	width: 100%;
+	height: auto;
+}
