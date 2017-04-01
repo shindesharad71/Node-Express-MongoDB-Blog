@@ -8,6 +8,7 @@ body {
 	text-align: center;
 	margin:auto;
 	display:block;
+	margin-bottom: 10px;
 }
 
 .container{
@@ -36,10 +37,6 @@ p{
 	margin:0;
 }
 
-a {
-  color: #00B7FF;
-}
-
 nav{
 	background:#404137;
 	color:#fff;
@@ -64,4 +61,26 @@ nav a{
 nav a.current, nav a:hover{
 	background: #83cd29;
 	color:#000;
+}
+
+.post h1 a{
+	color: #666;
+	text-decoration: none;
+}
+
+.meta {
+	padding: 7px;
+	border: 1px solid #ccc;
+	background: #ccc;
+	margin-bottom: 10px;
+}
+
+a.more {
+	display: block;
+	width: 80px;
+	background: #404137;
+	color: #fff;
+	padding: 10px;
+	margin-top: 30px;
+	text-decoration: none;
 }
